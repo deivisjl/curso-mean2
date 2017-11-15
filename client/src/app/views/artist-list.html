@@ -1,0 +1,49 @@
+<div class="head-page" *ngIf="identity">
+	<h1>{{ titulo }}</h1>
+	<a [routerLink]="['/crear-artista']" *ngIf="identity.role == 'ROLE_ADMIN'" href="" class="btn btn-primary">Añadir artista</a>
+
+</div>
+
+	<nav>
+	  <ul class="pager">
+	    <li><a [routerLink]="['/artistas', last_page]" >Anterior</a></li>
+	    <li><a [routerLink]="['/artistas', next_page]" >Siguiente</a></li>
+	  </ul>
+	</nav>
+
+<div class="clearfix"></div>
+
+<div>
+	<!--div *ngIf="i%4 == 0"></div-->	
+		<div class="row"><!--div apertura--> 
+		  <div class="col-md-3" *ngFor="let artist of artist" >
+		    <div class="thumbnail">
+		    	
+		    		<img *ngIf="artist.image == 'null' " src="{{ url + 'get-image-artist/imageAvailable.jpg'}}" alt="...">
+		    		
+		    		<img *ngIf="artist.image != 'null'" src="{{ url + 'get-image-artist/' + artist.image}}" alt="...">
+		    	
+
+		      <div class="caption text-center">
+		       <a [routerLink]="['/artista',artist._id]"> <h3>{{artist.name}}</h3></a>
+		        <p>{{artist.description}}</p>
+
+		        <p *ngIf="identity.role == 'ROLE_ADMIN' "> 
+		        	<a class="btn btn-primary" >Ver</a>
+		        	<a class="btn btn-warning" [routerLink]="['/editar-artista', artist._id]" >Editar</a>
+		        	<a class="btn btn-danger" (click)="onDeleteConfirm(artist._id) " >Borrar</a>
+		        </p>
+
+		        <p class="seguro" *ngIf="confirmado == artist._id" >
+		        	<a (click)="onDeleteArtist(artist._id)" class="btn btn-sm btn-danger" >Eliminar</a>
+		        	<a (click)="onCancelArtist() " class="btn btn-default" >Cancelar</a>
+		        </p>
+
+		        		       
+		      </div>
+		    </div>
+		  </div>
+	<!--div *ngIf="(index+1)%4 == 0" ></div--> 
+		</div><!--div cierre-->
+	 
+</div>

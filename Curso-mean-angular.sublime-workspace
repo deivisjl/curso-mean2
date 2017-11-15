@@ -1,0 +1,1285 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"song",
+				"song_player\tlet"
+			],
+			[
+				"j",
+				"JSON\tinterface"
+			],
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"Song",
+				"SongService\talias"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"geta",
+				"getAlbums\tmethod"
+			],
+			[
+				"op",
+				"options\tlet"
+			],
+			[
+				"Request",
+				"RequestOptions\talias"
+			],
+			[
+				"Albu",
+				"AlbumService\talias"
+			],
+			[
+				"ar",
+				"artist"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"Artist",
+				"ArtistService\talias"
+			],
+			[
+				"err",
+				"errorMessage\tlocal var"
+			],
+			[
+				"Ar",
+				"Artist\talias"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"ide",
+				"identity\tproperty"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"loca",
+				"localStorage\tvar"
+			],
+			[
+				"fil",
+				"filesToUpload\tproperty"
+			],
+			[
+				"make",
+				"makeFileRequest\tmethod"
+			],
+			[
+				"fu",
+				"function\tkeyword"
+			],
+			[
+				"upd",
+				"registerUpdate\tproperty"
+			],
+			[
+				"con",
+				"console\tvar"
+			],
+			[
+				"app",
+				"appRoutingProviders\talias"
+			],
+			[
+				"g",
+				"glyphicon"
+			],
+			[
+				"Com",
+				"Component\talias"
+			],
+			[
+				"pa",
+				"panel-body"
+			],
+			[
+				"pane",
+				"panel"
+			],
+			[
+				"form",
+				"form-control"
+			],
+			[
+				"c",
+				"class\tAttr"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"md_",
+				"md_upload"
+			],
+			[
+				"albu",
+				"albumId〔variable〕"
+			],
+			[
+				"par",
+				"params"
+			],
+			[
+				"AlbumC",
+				"AlbumController.deleteArtist"
+			],
+			[
+				"album",
+				"albumUpdated"
+			],
+			[
+				"al",
+				"albumId"
+			],
+			[
+				"artis",
+				"artistId〔variable〕"
+			],
+			[
+				"a",
+				"albumStored"
+			],
+			[
+				"artist",
+				"artistRemoved"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"path",
+				"path_file"
+			],
+			[
+				"image",
+				"imageFile"
+			],
+			[
+				"exi",
+				"exists"
+			],
+			[
+				"updat",
+				"updateUser〔function〕"
+			],
+			[
+				"su",
+				"surname"
+			],
+			[
+				"user",
+				"userStored"
+			],
+			[
+				"Us",
+				"UserSchema"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"body",
+				"bodyParser〔variable〕"
+			],
+			[
+				"verif",
+				"verify"
+			],
+			[
+				"Che",
+				"CheckClientCredentials〔class〕"
+			],
+			[
+				"transf",
+				"$transformedErrors〔variable〕"
+			],
+			[
+				"trans",
+				"$transformedField〔variable〕"
+			],
+			[
+				"tra",
+				"$transformedField〔variable〕"
+			],
+			[
+				"tran",
+				"$transformedErrors〔variable〕"
+			],
+			[
+				"transform",
+				"transformedInput"
+			],
+			[
+				"tr",
+				"$transaction〔variable〕"
+			],
+			[
+				"que",
+				"$queryParams〔variable〕"
+			],
+			[
+				"produ",
+				"product_id"
+			],
+			[
+				"del",
+				"deleted_at"
+			],
+			[
+				"co",
+				"$collection〔variable〕"
+			],
+			[
+				"sort",
+				"sortBy〔function〕"
+			],
+			[
+				"sho",
+				"showMessage〔function〕"
+			],
+			[
+				"show",
+				"showOne〔function〕"
+			],
+			[
+				"ver",
+				"verification_token"
+			],
+			[
+				"sh",
+				"showOne〔function〕"
+			],
+			[
+				"reque",
+				"$request〔variable〕"
+			],
+			[
+				"catego",
+				"$category〔variable〕"
+			],
+			[
+				"categori",
+				"categories"
+			],
+			[
+				"pr",
+				"$product〔variable〕"
+			],
+			[
+				"s",
+				"showOne〔function〕"
+			],
+			[
+				"PRO",
+				"PRODUCTO_NO_DISPONIBLE〔constant〕"
+			],
+			[
+				"produc",
+				"$products〔variable〕"
+			],
+			[
+				"M",
+				"MethodNotAllowedHttpException"
+			],
+			[
+				"excepti",
+				"$exception〔variable〕"
+			],
+			[
+				"Auth",
+				"AuthenticationException"
+			],
+			[
+				"cla",
+				"class_basename〔function〕"
+			],
+			[
+				"Vali",
+				"ValidationException"
+			],
+			[
+				"es",
+				"esVerificado〔function〕"
+			],
+			[
+				"verifi",
+				"verification_token"
+			],
+			[
+				"U",
+				"USUARIO_NO_VERIFICADO〔constant〕"
+			],
+			[
+				"cantida",
+				"$cantidadUsuarios〔variable〕"
+			],
+			[
+				"rand",
+				"random"
+			],
+			[
+				"rando",
+				"randomElement〔function〕"
+			],
+			[
+				"ve",
+				"verificado"
+			],
+			[
+				"veri",
+				"verification_token"
+			],
+			[
+				"Htt",
+				"HttpKernel〔namespace〕"
+			],
+			[
+				"Route",
+				"Route::get"
+			],
+			[
+				"col-md-1",
+				"div.col-md-1"
+			],
+			[
+				"bord",
+				"border-radius"
+			],
+			[
+				"pers",
+				"persona_id"
+			],
+			[
+				"str_re",
+				"str_replace〔function〕"
+			],
+			[
+				"l",
+				"length〔variable〕"
+			],
+			[
+				"re",
+				"removeClass〔function〕"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"Nombre",
+				"Nombre_Empresa"
+			],
+			[
+				"Stoc",
+				"StockMin"
+			],
+			[
+				"Nom",
+				"Nombre_Categoria"
+			],
+			[
+				"deta",
+				"$detalle2〔variable〕"
+			],
+			[
+				"resultQue",
+				"$resultQueryProd〔variable〕"
+			],
+			[
+				"registro",
+				"$registro3〔variable〕"
+			],
+			[
+				"reg",
+				"$registro〔variable〕"
+			],
+			[
+				"regist",
+				"$registroAbono〔variable〕"
+			],
+			[
+				"query",
+				"$queryAbono〔variable〕"
+			],
+			[
+				"jso",
+				"json_info〔variable〕"
+			],
+			[
+				"result",
+				"resultUsuario"
+			],
+			[
+				"mysq",
+				"mysqli〔class〕"
+			],
+			[
+				"resultU",
+				"$resultUsuario〔variable〕"
+			],
+			[
+				"resultIns",
+				"resultInsertFactura"
+			],
+			[
+				"resulLast",
+				"$resultLastIdDeudor〔variable〕"
+			],
+			[
+				"else",
+				"else〔keyword〕"
+			],
+			[
+				"resultInsert",
+				"$resultInsert〔variable〕"
+			],
+			[
+				"resul",
+				"$resultDetalle〔variable〕"
+			],
+			[
+				"r",
+				"rollback〔function〕"
+			],
+			[
+				"sql",
+				"$sqlInsert〔variable〕"
+			],
+			[
+				"m",
+				"message"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"nuev",
+				"$nuevaPass〔variable〕"
+			],
+			[
+				"C",
+				"Contraseña"
+			],
+			[
+				"col-md-",
+				"col-md-8"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"colo",
+				"color: 〔property〕"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "client/src/app/app.module.ts",
+			"settings":
+			{
+				"buffer_size": 1663,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/src/app/app.component.html",
+			"settings":
+			{
+				"buffer_size": 5473,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "client/src/app/components/player.component.ts",
+			"settings":
+			{
+				"buffer_size": 815,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/src/app/views/player.html",
+			"settings":
+			{
+				"buffer_size": 721,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/src/app/components/album-detail.component.ts",
+			"settings":
+			{
+				"buffer_size": 3296,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "client/src/app/app.routing.ts",
+			"settings":
+			{
+				"buffer_size": 1720,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/curso-mean2",
+		"/C/wamp64/www/curso-mean2/api",
+		"/C/wamp64/www/curso-mean2/api/routes",
+		"/C/wamp64/www/curso-mean2/client",
+		"/C/wamp64/www/curso-mean2/client/src",
+		"/C/wamp64/www/curso-mean2/client/src/app",
+		"/C/wamp64/www/curso-mean2/client/src/app/components",
+		"/C/wamp64/www/curso-mean2/client/src/app/models",
+		"/C/wamp64/www/curso-mean2/client/src/app/services",
+		"/C/wamp64/www/curso-mean2/client/src/app/views",
+		"/C/wamp64/www/curso-mean2/client/src/assets",
+		"/C/wamp64/www/curso-mean2/client/src/assets/css",
+		"/C/wamp64/www/curso-mean2/client/src/assets/images"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/curso-mean2/client/src/assets/css/styles.css",
+		"/C/wamp64/www/curso-mean2/client/src/app/views/album-detail.html",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/album-detail.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/app.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/services/song.service.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/song-add.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/views/song-add.html",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/song-edit.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/views/artist-detail.html",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/artist-detail.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/services/album.service.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/artist-edit.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/views/album-add.html",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/album-add.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/album-edit.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/services/artist.service.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/artist-list.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/views/artist-list.html",
+		"/C/wamp64/www/curso-mean2/client/src/app/app.component.html",
+		"/C/wamp64/www/curso-mean2/api/controllers/artist.js",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/artist-add.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/services/upload.service.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/views/artist-add.html",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/home.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/views/home.html",
+		"/C/wamp64/www/curso-mean2/api/routes/user.js",
+		"/C/wamp64/www/curso-mean2/api/controllers/user.js",
+		"/C/wamp64/www/curso-mean2/api/models/user.js",
+		"/C/wamp64/www/curso-mean2/client/src/app/views/user-edit.html",
+		"/C/wamp64/www/curso-mean2/client/src/app/components/user-edit.component.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/services/user.service.ts",
+		"/C/wamp64/www/curso-mean2/api/app.js",
+		"/C/wamp64/www/curso-mean2/client/src/app/services/global.ts",
+		"/C/wamp64/www/curso-mean2/client/src/index.html",
+		"/C/Users/SAMSUNG/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-js-completions.sublime-settings",
+		"/C/wamp64/www/curso-mean2/client/src/app/models/user.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/models/artist.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/models/album.ts",
+		"/C/wamp64/www/curso-mean2/client/src/app/models/song.ts",
+		"/C/wamp64/www/curso-mean2/app.js",
+		"/C/wamp64/www/curso-mean2/controllers/user.js",
+		"/C/wamp64/www/curso-mean2/controllers/song.js",
+		"/C/wamp64/www/curso-mean2/routes/song.js",
+		"/C/wamp64/www/curso-mean2/uploads/song/cB9cniFNSyZube3u8UFiPAmc.mp3",
+		"/C/wamp64/www/curso-mean2/controllers/album.js",
+		"/C/wamp64/www/curso-mean2/routes/album.js",
+		"/C/wamp64/www/curso-mean2/node_modules/connect-multiparty/index.js",
+		"/C/wamp64/www/curso-mean2/controllers/artist.js",
+		"/C/wamp64/www/curso-mean2/routes/artist.js",
+		"/C/wamp64/www/curso-mean2/routes/user.js",
+		"/C/wamp64/www/curso-mean2/index.js",
+		"/C/wamp64/www/curso-mean2/middlewares/authenticated.js",
+		"/C/wamp64/www/curso-mean2/services/jwt.js",
+		"/C/wamp64/www/curso-mean2/services",
+		"/C/wamp64/www/curso-mean2/package.json",
+		"/C/wamp64/www/curso-mean2/models/user.js",
+		"/C/wamp64/www/curso-mean2/models/artist.js",
+		"/C/wamp64/www/curso-mean2/models/album.js",
+		"/C/wamp64/www/curso-mean2/models/song.js",
+		"/C/wamp64/www/APIRestful/app/Providers/AuthServiceProvider.php",
+		"/C/wamp64/www/APIRestful/app/Policies/BuyerPolicy.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Buyer/BuyerSellerController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Category/CategoryBuyerController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Category/CategoryController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Category/CategorySellerController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Category/CategoryTransactionController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Product/ProductBuyerController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Product/ProductTransactionController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Seller/SellerBuyerController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Seller/SellerController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Transaction/TransactionController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/User/UserController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Buyer/BuyerController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/ApiController.php",
+		"/C/wamp64/www/APIRestful/app/Policies/UserPolicy.php",
+		"/C/wamp64/www/APIRestful/app/Policies/TransactionPolicy.php",
+		"/C/wamp64/www/APIRestful/app/Policies/SellerPolicy.php",
+		"/C/wamp64/www/APIRestful/app/Policies/ProductPolicy.php",
+		"/C/wamp64/www/APIRestful/app/Traits/AdminActions.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Product/ProductCategoryController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Transaction/TransactionSellerController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Seller/SellerCategoryController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Seller/SellerTransactionController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Seller/SellerProductController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Product/ProductBuyerTransactionController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Buyer/BuyerCategoryController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Buyer/BuyerProductController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Buyer/BuyerTransactionController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Kernel.php",
+		"/C/wamp64/www/APIRestful/routes/api.php",
+		"/C/wamp64/www/APIRestful/resources/views/layouts/app.blade.php",
+		"/C/wamp64/www/APIRestful/resources/assets/js/app.js",
+		"/C/wamp64/www/APIRestful/routes/web.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/HomeController.php",
+		"/C/wamp64/www/APIRestful/resources/views/home/personal-tokens.blade.php",
+		"/C/wamp64/www/APIRestful/resources/views/home/authorized-clients.blade.php",
+		"/C/wamp64/www/APIRestful/resources/views/home/personal-clients.blade.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Transaction/TransactionCategoryController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Product/ProductController.php",
+		"/C/wamp64/www/APIRestful/app/Http/Controllers/Category/CategoryProductController.php",
+		"/C/wamp64/www/APIRestful/app/Exceptions/Handler.php",
+		"/C/wamp64/www/APIRestful/app/Traits/ApiResponser.php",
+		"/C/wamp64/www/APIRestful/resources/views/welcome.blade.php",
+		"/C/wamp64/www/APIRestful/config/auth.php",
+		"/C/wamp64/www/APIRestful/app/User.php",
+		"/C/wamp64/www/APIRestful/vendor/laravel/passport/src/HasApiTokens.php",
+		"/C/wamp64/www/APIRestful/config/app.php",
+		"/C/wamp64/www/APIRestful/app/Http/Middleware/TransformInput.php",
+		"/C/wamp64/www/APIRestful/vendor/laravel/framework/src/Illuminate/Routing/Router.php",
+		"/C/wamp64/www/APIRestful/resources/views/home.blade.php",
+		"/C/wamp64/www/APIRestful/vendor/laravel/framework/src/Illuminate/Routing/Route.php",
+		"/C/wamp64/www/APIRestful/app/Transformers/BuyerTransformer.php",
+		"/C/wamp64/www/APIRestful/app/Transformers/CategoryTransformer.php",
+		"/C/wamp64/www/APIRestful/app/Transformers/ProductTransformer.php",
+		"/C/wamp64/www/APIRestful/app/Transformers/SellerTransformer.php",
+		"/C/wamp64/www/APIRestful/app/Transformers/TransactionTransformer.php",
+		"/C/wamp64/www/APIRestful/app/Transformers/UserTransformer.php",
+		"/C/wamp64/www/APIRestful/app/Transaction.php",
+		"/C/wamp64/www/APIRestful/vendor/laravel/framework/src/Illuminate/Contracts/Pagination/LengthAwarePaginator.php",
+		"/C/wamp64/www/APIRestful/app/Buyer.php",
+		"/C/wamp64/www/APIRestful/app/Category.php",
+		"/C/wamp64/www/APIRestful/app/Product.php",
+		"/C/wamp64/www/APIRestful/app/Seller.php",
+		"/C/wamp64/www/APIRestful/vendor/laravel/framework/src/Illuminate/Foundation/ComposerScripts.php",
+		"/C/wamp64/www/APIRestful/bootstrap/app.php",
+		"/C/wamp64/www/APIRestful/vendor/symfony/http-kernel/Kernel.php",
+		"/C/wamp64/www/APIRestful/vendor/laravel/framework/src/Illuminate/Contracts/Http/Kernel.php",
+		"/C/wamp64/www/APIRestful/vendor/laravel/framework/src/Illuminate/Contracts/Console/Kernel.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"href=\"#\"",
+			"button",
+			"ul",
+			"user_register",
+			"identity",
+			"h1",
+			"artistRemoved",
+			"ArtistController",
+			";\n",
+			");\n",
+			"product",
+			"products",
+			"category",
+			"categories",
+			"user",
+			"buyer",
+			"user",
+			"METHOD_GET",
+			"[",
+			"$user = User::findOrFail($id);",
+			"posts-table",
+			"trans",
+			"inner",
+			"sorting_1",
+			"Fecha",
+			"Saldo",
+			"Monto",
+			"Cliente",
+			"Factura",
+			"ganancia",
+			"cantidad",
+			"venta",
+			"compra",
+			"td",
+			"registro3",
+			"registro2",
+			"registrotabla",
+			"registro2",
+			"resultUsuario",
+			"BaseUrl",
+			"baseUrl",
+			"BaseUrl",
+			"baseUrl",
+			"insertProv",
+			"campo_valido",
+			"has-error",
+			"_mensaje",
+			"validacion-mensaje",
+			"password",
+			"span",
+			"bar",
+			"div",
+			"millions",
+			"25",
+			"message",
+			"set_resp",
+			"factura",
+			"enlace",
+			"conex",
+			"apellido",
+			"nombre",
+			"span",
+			"label",
+			"data-dismiss",
+			"ProveedorResponse",
+			"queryProveedor",
+			"codigo",
+			"direccion",
+			"apellido",
+			"\");\n",
+			"insertProv",
+			"a",
+			"button",
+			"numerico",
+			"Nombres",
+			"insertProv",
+			"_length",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"show",
+			"Show",
+			"entries",
+			"post_person_form_submit",
+			"tb_remove",
+			"ajaxSubmit",
+			"submit",
+			"tb_show",
+			"document.ready",
+			"$document",
+			"TB_iframe",
+			"tb_show",
+			"modal",
+			"_reload",
+			"service",
+			"4386a1",
+			"207cca",
+			"#207cca",
+			"207cca",
+			"1e5799",
+			"BaseUrl",
+			"baseUrl",
+			"insertAtributo",
+			"insertMarca",
+			"MarcaResponse",
+			"marca",
+			"frm_marca"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "client/src/app/app.module.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1111,
+								1111
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": true,
+								"indentSize": 2,
+								"tabSize": 2
+							},
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 370.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "client/src/app/app.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5473,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2849,
+								2849
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"typescript_plugin_format_options":
+							{
+								"convertTabsToSpaces": false,
+								"indentSize": 4,
+								"tabSize": 4
+							}
+						},
+						"translation.x": 0.0,
+						"translation.y": 945.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "client/src/app/components/player.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 815,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								759,
+								759
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 25.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "client/src/app/views/player.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								537
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"open_with_edit": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "client/src/app/components/album-detail.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3110,
+								3110
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"translate_tabs_to_spaces": false,
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1780.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "client/src/app/app.routing.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1078,
+								1078
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
+							"use_tab_stops": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 85.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Curso-mean-angular.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"client\\src\\app\\components\\user-edit.component.ts"
+			],
+			[
+				"illuminate/routing/route",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php"
+			],
+			[
+				"illuminate/routingroute",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php"
+			],
+			[
+				"composerscr",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\ComposerScripts.php"
+			],
+			[
+				"app",
+				"bootstrap\\app.php"
+			],
+			[
+				"autoload_re",
+				"vendor\\composer\\autoload_real.php"
+			],
+			[
+				"autoload",
+				"vendor\\autoload.php"
+			],
+			[
+				"autolo",
+				"bootstrap\\autoload.php"
+			],
+			[
+				"home",
+				"src\\stubs\\HomeController.stub"
+			],
+			[
+				"index.",
+				"public\\plugins\\index.html"
+			],
+			[
+				"autol",
+				"vendor\\autoload.php"
+			],
+			[
+				"main.",
+				"public\\js\\main.js"
+			],
+			[
+				"config/",
+				"config\\app.php"
+			],
+			[
+				"boot",
+				"public\\css\\bootstrap.css"
+			],
+			[
+				"throwable",
+				"vendor\\symfony\\debug\\Symfony\\Component\\Debug\\Exception\\FatalThrowableError.php"
+			],
+			[
+				"fatalthrowableerro",
+				"vendor\\symfony\\debug\\Symfony\\Component\\Debug\\Exception\\FatalThrowableError.php"
+			],
+			[
+				"handel",
+				"vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

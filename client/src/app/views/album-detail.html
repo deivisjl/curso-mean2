@@ -1,0 +1,62 @@
+<div class="row">
+    <div class="col-md-3" *ngIf="album" >
+        <div class="thumbnail">
+          <img *ngIf="album.image == 'null' " src="{{ url + 'get-image-album/imageAvailable.jpg'}}" alt="...">
+              
+          <img *ngIf="album.image != 'null'" src="{{ url + 'get-image-album/' + album.image}}" alt="...">
+
+        <div class="caption text-center">
+          <h3>{{ album.title }}</h3>
+          <p>{{ album.description }}</p>
+          <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p *ngIf="identity.role == 'ROLE_ADMIN'" >
+            <a [routerLink]="['/crear-tema',album._id]" class="btn btn-default" role="button">Añadir cancion</a>
+          </p>
+        </div>
+      </div>  
+    </div>
+
+    <div class="col-md-9" *ngIf="songs != 'null' && album ">
+        <div class="panel panel-default">
+          <!-- Default panel contents -->
+          <div class="panel-heading text-center"><strong>{{ album.title }}</strong></div>
+          <div class="panel-body">
+            <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+          <!-- List group -->
+          <ul class="list-group">
+            <li class="list-group-item" *ngFor="let song of songs">
+
+                    <a class="btn btn-success" (click)="startPlayer(song)" >
+                      <span class="glyphicon glyphicon-play"></span>
+                    </a>
+                  
+
+                  {{ song.number + '. ' + song.name + ' - ' + song.duration}}
+
+                  <div class="navbar-right">
+                      <a class="btn btn-warning" [routerLink]="['/editar-tema',song._id]">Editar</a>
+                      <a class="btn btn-danger" (click)="onDeleteConfirm(song._id)">Borrar</a>
+                  </div>
+
+                  <div class="text-center" *ngIf="confirmado == song._id">
+                      <a (click)="onDeleteSong(song._id)"  class="btn btn-danger">Borrar</a>
+                      <a (click)="onSongCancel()"  class="btn btn-default">Cancelar</a>
+                  </div>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>

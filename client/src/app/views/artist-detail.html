@@ -1,0 +1,78 @@
+<div class="row">
+    <div class="col-md-3" *ngIf="artist" >
+        <div class="thumbnail">
+          <img *ngIf="artist.image == 'null' " src="{{ url + 'get-image-artist/imageAvailable.jpg'}}" alt="...">
+              
+          <img *ngIf="artist.image != 'null'" src="{{ url + 'get-image-artist/' + artist.image}}" alt="...">
+
+        <div class="caption text-center">
+          <h3>{{ artist.name }}</h3>
+          <p>{{ artist.description }}</p>
+          <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+          <p *ngIf="identity.role == 'ROLE_ADMIN'" >
+            <a [routerLink]="['/crear-album',artist._id]" class="btn btn-default" role="button">Añadir album</a>
+          </p>
+        </div>
+      </div>  
+    </div>
+
+    <div class="col-md-8" *ngIf="artist">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading text-center" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+                      <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Albums of {{ artist.name }}
+                      </a>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                      <div *ngIf="albums">
+                        <div class="col-md-6" *ngFor="let album of albums">
+                            <div class="thumbnail">
+                                <img *ngIf="album.image == 'null' " src="{{ url + 'get-image-artist/imageAvailable.jpg'}}" alt="...">
+                                    
+                                <img *ngIf="album.image != 'null'" src="{{ url + 'get-image-album/' + album.image}}" alt="...">
+
+                              <div class="caption text-center">
+                                <a [routerLink]="['/album',album._id]" ><h3>{{ album.title }}</h3></a>
+                                <p>{{ album.description }}</p>
+                                <p>{{ album.year }}</p>
+                                <p *ngIf="identity.role == 'ROLE_ADMIN'" >
+                                  <a [routerLink]="['/editar-album',album._id]" class="btn btn-primary" role="button">Editar album</a>
+                                  <a (click)="onDeleteConfirm(album._id)" class="btn btn-danger" role="button">Borrar album</a>
+                                </p>
+                                  <p class="seguro" *ngIf="confirmado == album._id" >
+                                    <a (click)="onDeleteAlbum(album._id)" class="btn btn-sm btn-danger" >Eliminar</a>
+                                    <a (click)="onCancelAlbum() " class="btn btn-default" >Cancelar</a>
+                                  </p>
+
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </div>
+
+</div>
+
+
+<div class="row" *ngIf="artist">
+  
+
+  <div class="clearfix"></div>
+
+      
+</div>

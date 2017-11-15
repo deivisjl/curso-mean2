@@ -1,0 +1,42 @@
+<div class="col-md-6" *ngIf="identity">
+						<div class="page-header">
+						  <h3>{{titulo}} <small>[Subtext for header]</small></h3>
+						</div>
+	<!--FORMULARIO DE EDICION DATOS DE USUARIO-->
+						<div *ngIf="registerUpdate">
+							<div class="alert alert-success">
+								<strong>Message </strong>{{ registerUpdate }}
+							</div>
+						</div>
+
+					<form #userUpdateForm="ngForm" (ngSubmit)="onSubmit()" class="col-md-10">
+
+						<label>Nombres:</label>
+							<input type="text" #name="ngModel" name="name" [(ngModel)]="user.name" class="form-control" required />
+							<span *ngIf="!name.valid && name.touched" class="label label-danger">
+										El nombre es obligatorio
+							</span>
+
+						<label>Apellidos:</label>
+							<input type="text"  #surname="ngModel" name="surname" [(ngModel)]="user.surname" class="form-control" required />
+							<span *ngIf="!surname.valid && surname.touched" class="label label-danger">
+										El apellido es obligatorio
+							</span>
+
+						<label>Correo electrónico:</label>
+								<input type="text" #email="ngModel" name="email" [(ngModel)]="user.email" class="form-control" required/>
+								<span *ngIf="!email.valid && email.touched" class="label label-danger">
+									El email es obligatorio
+								</span>
+								<br/>
+							<div class="image_for_edit" *ngIf=" user.image && user.image != 'null' ">
+								<img src="{{url + 'get-image-user/' + user.image}}" style="width: 100px;" />
+							</div>
+							<p>
+								<label>Sube tu foto</label>
+								<input type="file" placeholder="Subir image..." (change)="fileChangeEvent($event)" name="">
+							</p>
+
+							<input type="submit" value="Actualizar datos" class="btn btn-primary">
+					</form>
+</div>
